@@ -14,8 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
-RUN ollama pull llama3
-RUN ollama pull deepseek-r1
+
 # Expose port
 EXPOSE 8000
 
