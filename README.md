@@ -11,14 +11,14 @@ A comprehensive system that uses Large Language Models to process natural langua
 - **Production Ready**: Includes monitoring, caching, and optimization features
 - **Scalable Architecture**: Modular design with containerization support
 
-## Requirements
+## 🗒 Requirements
 
 - Python 3.11+
 - PostgreSQL 12+
 - Ollama (for LLM models)
 - Docker (optional, for containerized deployment)
 
-## 🛠️ Installation
+## 🛠 Installation
 
 ### Quick Start (Docker)
 
@@ -62,7 +62,7 @@ python database/migrate.py
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Create a `.env` file in the root directory:
 
