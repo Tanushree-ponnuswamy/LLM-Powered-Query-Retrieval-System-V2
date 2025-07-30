@@ -2,7 +2,7 @@
 
 A comprehensive system that uses Large Language Models to process natural language queries and retrieve relevant information from large unstructured documents such as policy documents, contracts, and emails.
 
-## 🚀 Features
+##⁺₊✧ Features
 
 - **Multi-format Document Processing**: Supports PDFs, DOCX, and email documents
 - **Semantic Search**: Uses FAISS and sentence transformers for intelligent document retrieval
@@ -11,7 +11,7 @@ A comprehensive system that uses Large Language Models to process natural langua
 - **Production Ready**: Includes monitoring, caching, and optimization features
 - **Scalable Architecture**: Modular design with containerization support
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.11+
 - PostgreSQL 12+
@@ -129,7 +129,7 @@ Health check endpoint.
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -271,12 +271,11 @@ chmod +x deploy/deploy.sh
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📞 Support
+## Support
 
 For support and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
-- Review the API documentation
 
 ## 🔄 Version History
 
@@ -285,5 +284,3 @@ For support and questions:
 - **v1.2.0**: Enhanced error handling and monitoring
 
 ---
-
-Built with ❤️ for HackRX 6.0
