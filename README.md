@@ -67,7 +67,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 Create a `.env` file in the root directory:
 
 ```env
-API_TOKEN=59d150e97f686fcc6859251c02b719e661203b21d4fb2eae792e07e727f07bff
+API_TOKEN=DEFINE_YOUR_OWN_TOKEN
 DATABASE_URL=postgresql://user:password@localhost:5432/hackrx_db
 OLLAMA_BASE_URL=http://localhost:11434
 LLM_MODEL=llama3
@@ -89,7 +89,7 @@ http://localhost:8000/api/v1
 ### Authentication
 All requests require a Bearer token in the Authorization header:
 ```
-Authorization: Bearer 59d150e97f686fcc6859251c02b719e661203b21d4fb2eae792e07e727f07bff
+Authorization: Bearer API_TOKEN
 ```
 
 ### Endpoints
