@@ -2,7 +2,7 @@
 
 A comprehensive system that uses Large Language Models to process natural language queries and retrieve relevant information from large unstructured documents such as policy documents, contracts, and emails.
 
-##⁺₊✧ Features
+## ⁺₊✧ Features
 
 - **Multi-format Document Processing**: Supports PDFs, DOCX, and email documents
 - **Semantic Search**: Uses FAISS and sentence transformers for intelligent document retrieval
