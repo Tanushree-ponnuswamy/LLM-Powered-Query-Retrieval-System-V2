@@ -5,7 +5,6 @@ from pathlib import Path
 from typing import List, Dict
 
 from services.query_processor import QueryProcessor
-
 class BatchProcessor:
     def __init__(self):
         self.query_processor = QueryProcessor()
